@@ -70,3 +70,31 @@ if(userInput < myNumber){
 }else{
   alert(userInput + " is greater than " + myNumber)
 }
+
+
+/* 100DAYS OF CODING CHALLENGE-----
+DAY 1: UNDERSTANDING ARRAYS
+READ AND LEARNED HOW TO CREATE ARRAYS.
+LEARNED THE DIFFERENT DATA TYPES ARRAYS CAN HOLD IN JAVASRIPT
+
+
+*/
+
+// The new keyword
+var myFriends = new Array (
+  "Liberty","Ebenezer","Sliping"
+
+);
+console.log(myFriends)
+console.log(myFriends[2])
+
+
+// The Array Literal
+var myFriendsCities = ["Harare","Accra","Banjul"];
+console.log(myFriendsCities)
+console.log(myFriendsCities[2])
+
+var fruits = ['orange','bananas','peas'];
+var animals = ['dog', 'cat', 'beer'];
+fruitsAndAnimals = fruits.concat(animals);
+document.write(fruitsAndAnimals);
