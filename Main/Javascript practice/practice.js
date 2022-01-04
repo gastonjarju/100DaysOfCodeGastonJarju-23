@@ -73,7 +73,7 @@ if(userInput < myNumber){
 
 
 /* 100DAYS OF CODING CHALLENGE-----
-DAY 1: UNDERSTANDING ARRAYS
+DAY 2: UNDERSTANDING ARRAYS
 READ AND LEARNED HOW TO CREATE ARRAYS.
 LEARNED THE DIFFERENT DATA TYPES ARRAYS CAN HOLD IN JAVASRIPT
 
@@ -98,3 +98,30 @@ var fruits = ['orange','bananas','peas'];
 var animals = ['dog', 'cat', 'beer'];
 fruitsAndAnimals = fruits.concat(animals);
 document.write(fruitsAndAnimals);
+
+
+/* 100DAYS OF CODING CHALLENGE-----
+DAY 3: UNDERSTANDING JQUERY
+READ AND LEARNED HOW TO CREATE DOCUMENT READY, JQUERY SYNTA, JQUERY EFFECTS- hide() and show(),
+JQUERY EVENT METHODS, JQUERY SELECTORS,
+
+
+
+*/
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+
+  $(function(){
+    var startDate = $("#startDate");
+    startDate.datepicker({
+      changeYear: true,
+      changeMonth: true,
+      minDate:+1,
+      dateFormat: "yy-mm-dd",
+    }).attr('readonly','readonly');
+  });
+
+
+});
