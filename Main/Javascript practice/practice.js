@@ -105,8 +105,6 @@ DAY 3: UNDERSTANDING JQUERY
 READ AND LEARNED HOW TO CREATE DOCUMENT READY, JQUERY SYNTA, JQUERY EFFECTS- hide() and show(),
 JQUERY EVENT METHODS, JQUERY SELECTORS,
 
-
-
 // */
 // $(document).ready(function(){
 //   $("button").click(function(){
@@ -137,79 +135,88 @@ JQUERY EVENT METHODS, JQUERY SELECTORS,
 // const d = 4;
 // const c = 3;
 
+
+
 // Optimized Variable declaration
-const a = true, b = false ,  d=4, c=3;
-
-console.log(a && b);
-console.log(a && a);
-console.log(a || a);
-console.log( b!=a);
-console.log(typeof(a))
-
-
-
-
-
-
-$(document).ready(function(){
-
-  $(function wordsToPrint(){
-    var button = $("button")
-    button.click(function(){
-      $('p').hide(function(){
-        alert("The Paragraphs are hidden!")
-
-      });
-
-    });
-
-  });
-  // document.write("Gaston you should continue concentrating on yourself because that is the only love you lack!");
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const a = true, b = false ,  d=4, c=3;
 //
+// console.log(a && b);
+// console.log(a && a);
+// console.log(a || a);
+// console.log( b!=a);
+// console.log(typeof(a))
+
+
+
+// JAVASCRIPT CALLBACK FUNCTION
+// $(document).ready(function(){
+//
+//   $(function wordsToPrint(){
+//     var button = $("button")
+//     button.click(function(){
+//       $('p').hide(function(){
+//         alert("The Paragraphs are hidden!")
+//
+//       });
+//
+//     });
+//
+//   });
+//   // document.write("Gaston you should continue concentrating on yourself because that is the only love you lack!");
+//
+// });
+
+// JAVASCRIPT val() method
+// $(document).ready(function(){
+//   $('button').click(function(){
+//     alert("The value of the input is " + $("#startDate").val());
+//
+//   });
+//
+//
+// });
+
+// JAVASCRIPT hide() method
 // $(document).ready(function() {
 //   $("button").click(function(){
 //     $("p").hide();
 //   });
-//
+
+
+// JAVASCRIPT in operator
 // var name = "Gaston"
 // var animals = ["cat", "dog", "bird"];
 // if(1 in animals){
 //   console.log("It is there")
 // }
 // console.log(typeof(name))
-//
-//
+
+
 // });
+
+
+/* 100DAYS OF CODING CHALLENGE-----
+DAY 6: UNDERSTANDING LOOPS AND IF STATEMENTS
+// */
+
+// General structure is:
+// if(condition){
+// Do something
+// }
+//
+// var age = 21;
+// var userInput = prompt("Enter your age here:");
+// if( userInput < age){
+//   document.write("You are under age to drink alcohol!");
+// }else if (userInput == age){
+//   document.write("You are exactly {age}, welcome to the party!");
+// }else{
+//   document.write("Have fun and drink responsibly!")
+// }
+
+
+//  Loop De Loop
+// for Loop
+for(age = 21; age < 25; age++){
+  console.log(age)
+}
